@@ -1,7 +1,21 @@
+body {
+    background-color: burlywood;
+
+}
+
+
+.logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 img {
     display: block;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
-    width: 100px;
+    width: 200px;
     height: auto;
 }
+
+
