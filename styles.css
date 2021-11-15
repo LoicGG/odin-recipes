@@ -18,4 +18,8 @@ img {
     height: auto;
 }
 
-
+.image {
+    padding: 20px;
+    border: 2px solid red;
+    display: inline-block;
+}
