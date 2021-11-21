@@ -1,25 +1,23 @@
 body {
     background-color: burlywood;
-
 }
-
 
 .logo {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    display:block    
 }
 
+.image {
+    padding: 10px;
+    border: 1px solid grey;
+    display: inline-block;    
+}
 img {
-    display: block;
-    margin-left: 20px;
-    margin-right: auto;
+    display: block; 
     width: 200px;
     height: auto;
 }
 
-.image {
-    padding: 20px;
-    border: 2px solid red;
-    display: inline-block;
-}
+
+
+/* comment juxtaposer les 3 images et leur donner une même dimension */
+
