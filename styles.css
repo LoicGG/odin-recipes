@@ -1,23 +1,29 @@
 body {
     background-color: burlywood;
+    width: auto;
+    margin-top: 0px;
 }
-
-.logo {
-    display:block    
+img {
+    width: 150px;
+    height: auto;
+}
+.assiette {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    display: flex;
+    border: 1px solid black; 
+    align-items: center;
+    justify-content: space-around;
 }
 
 .image {
-    padding: 10px;
-    border: 1px solid grey;
-    display: inline-block;    
+    width: 150px;
+    height: 150px;
+    margin: 100px;
 }
-img {
-    display: block; 
-    width: 200px;
-    height: auto;
-}
-
-
 
 /* comment juxtaposer les 3 images et leur donner une même dimension */
-
